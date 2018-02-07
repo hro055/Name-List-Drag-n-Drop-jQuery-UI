@@ -1,0 +1,23 @@
+
+.message{
+    border:1px solid grey;
+    background-color: rgb(238, 233, 227);
+    cursor: move;
+}
+#sortable { 
+    list-style-type: none;
+    margin: 20 auto; 
+    padding: 0; 
+    width: 30%; 
+}
+#sortable li {
+     margin: 0 3px 3px 3px; 
+     padding: 0.4em;
+     padding-left: 1.5em; 
+     font-size: 1.4em; 
+     height: 18px; 
+}
+#sortable li span { 
+    position: absolute; 
+    margin-left: -1.3em; 
+}
